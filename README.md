@@ -6,7 +6,7 @@ A modern job marketplace where candidates can browse/apply/save jobs and recruit
 
 ## ✨ Demo
 
-- Production (Vercel): https://hirrd-topaz.vercel.app/
+- Production (Vercel): https://hirrd-phi.vercel.app/
 - Example routes: /jobs, /job/:id, /saved-job, /my-jobs
 - SPA routes work thanks to vercel.json rewrites.
 
