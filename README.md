@@ -1,14 +1,14 @@
 # Full Stack Job Portal with React JS, Tailwind CSS, Supabase, Clerk, Shadcn UI Tutorial 🔥🔥
 
-Hirrd – Job Portal (React + Vite + Supabase + Clerk)
+## Hirrd – Job Portal (React + Vite + Supabase + Clerk)
 
 A modern job marketplace where candidates can browse/apply/save jobs and recruiters can post and manage jobs. Built with React (Vite), Supabase (DB + storage + REST), Clerk (auth), Tailwind CSS v4, and shadcn/ui.
 
 ## ✨ Demo
 
-Production (Vercel): https://hirrd-topaz.vercel.app/
-Example routes: /jobs, /job/:id, /saved-job, /my-jobs
-SPA routes work thanks to vercel.json rewrites.
+- Production (Vercel): https://hirrd-topaz.vercel.app/
+- Example routes: /jobs, /job/:id, /saved-job, /my-jobs
+- SPA routes work thanks to vercel.json rewrites.
 
 ## 🧱 Tech Stack
 
