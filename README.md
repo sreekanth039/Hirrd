@@ -32,8 +32,8 @@ A modern job marketplace where candidates can browse/apply/save jobs and recruit
 ## 📦 Project Structure
 
 - src/
-  api/                 // Supabase API helpers (jobs, companies, applications)
-  components/          // Reusable UI + feature components (JobCard, Header, etc.)
+ - api/                 // Supabase API helpers (jobs, companies, applications)
+ - components/          // Reusable UI + feature components (JobCard, Header, etc.)
   hooks/               // use-fetch, etc.
   layouts/             // App layout
   pages/               // landing, job-listing, job, post-job, saved-job, my-jobs
