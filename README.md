@@ -4,13 +4,13 @@ Hirrd – Job Portal (React + Vite + Supabase + Clerk)
 
 A modern job marketplace where candidates can browse/apply/save jobs and recruiters can post and manage jobs. Built with React (Vite), Supabase (DB + storage + REST), Clerk (auth), Tailwind CSS v4, and shadcn/ui.
 
-✨ Demo
+## ✨ Demo
 
 Production (Vercel): https://hirrd-topaz.vercel.app/
 Example routes: /jobs, /job/:id, /saved-job, /my-jobs
 SPA routes work thanks to vercel.json rewrites.
 
-🧱 Tech Stack
+## 🧱 Tech Stack
 
 Frontend: React 18, Vite, React Router
 UI: Tailwind v4, shadcn/ui, lucide-react
@@ -19,7 +19,7 @@ Auth: Clerk
 Backend: Supabase (Postgres, RLS, Storage)
 Deploy: Vercel
 
-🔥 Features
+## 🔥 Features
 
 Browse latest jobs with filters (search, location, company)
 Job detail page with company logo, requirements (markdown), status (Open/Closed)
@@ -29,7 +29,7 @@ Recruiter dashboard: post jobs, view applicants, change hiring status
 Protected routes via Clerk
 SPA-friendly routing on Vercel
 
-📦 Project Structure
+## 📦 Project Structure
 
 src/
   api/                 // Supabase API helpers (jobs, companies, applications)
@@ -40,7 +40,7 @@ src/
   utils/               // supabase client, helpers
   index.css            // Tailwind v4 + custom layers
   
-⚙️ Environment Variables
+## ⚙️ Environment Variables
 
 Create .env.local (and set the same on Vercel):
 VITE_CLERK_PUBLISHABLE_KEY=pk_***
@@ -48,17 +48,15 @@ VITE_SUPABASE_URL=https://xxxx.supabase.co
 VITE_SUPABASE_ANON_KEY=eyJhbGciOi***
 Only variables prefixed with VITE_ are available to the browser.
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-# install
+## install
 npm i
 
-# dev
+## dev
 npm run dev
 
-# type-check (if TS)
-# npm run typecheck
 
-# production build
+## production build
 npm run build
 npm run preview
